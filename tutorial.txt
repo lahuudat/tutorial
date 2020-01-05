@@ -1,6 +1,6 @@
 sudo apt-get -f install
 
-check version
+check version ubuntu
 lsb_release -a
 
 fix bug khong the truy cap 
