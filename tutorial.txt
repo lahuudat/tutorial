@@ -1,3 +1,1094 @@
+//google api
+AIzaSyDGOTDJmayhQQLsauXcytSt0XxPu43EXFY
+
+
+//code test redux framework
+<?php
+global $tp_options;
+echo '<pre>';
+print_r($tp_options);
+echo '</pre>';
+
+
+//link source code
+https://sourcecodefree.org/
+
+
+//code hien thi anh wordpress
+<img src="<?php echo get_stylesheet_directory_uri() ?> /img/facebook.jpg" style="width: 100%; height: auto;">
+
+
+//web template
+http://www.os-templates.com/free-website-templates/edgpress
+http://www.free-css.com/commercial-templates
+https://freewebsitetemplates.com/
+https://www.w3schools.com/w3css/w3css_templates.asp
+https://themeforest.net/
+https://w3layouts.com/
+https://designac.co/en/
+https://templated.co/
+
+
+//lap trinh web tin tuc
+http://phpcanban.com/huong-dan-lam-website-tin-tuc-php-object-oriented.html
+
+
+//link anh mau
+http://placehold.it/600x450
+
+
+//toggle submenu
+https://codepen.io/carrieforde/pen/xdbxbM
+//css-----------------
+body {
+	background-color: #F6F6F7;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+}
+
+.screen-reader-text {
+	height: 0.0625rem;
+  width: 0.0625rem;
+  border: 0;
+  clip: rect(0 0 0 0);
+  margin: -0.0625rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.menu-screen {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.is-open .menu-screen {
+	background-color: #75757C;
+	opacity: 0.6;
+}
+
+.site-header {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.header-inner {
+	font-family: 'Playfair Display', cursive;
+}
+
+.button-burger {
+	background-color: transparent;
+	border: none;
+	display: inline-block;
+	height: 23px;
+	position: relative;
+	width: 30px;
+	z-index: 4;
+}
+
+.bar {
+	background-color: #e5633b;
+	display: block;
+	height: 3px;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	transition: transform 0.3s ease-in-out;
+	width: 30px;
+}
+
+.bar-1 {
+	top: 0;
+}
+
+.bar-2 {
+	margin-top: -1px;
+}
+
+.bar-3 {
+	bottom: 0;
+}
+
+.is-open .bar-1 {
+	bottom: 0;
+	transform: rotate(45deg);
+}
+
+.is-open .bar-2 {
+	display: none;
+}
+
+.is-open .bar-3 {
+	top: 0;
+	transform: rotate(-45deg);
+}
+
+.main-navigation {
+	background-color: #434142;
+	font-weight: 700;
+	overflow: hidden;
+	position: fixed;
+	top: 0; right: 0; bottom: 0;
+	transition: width 0.35s ease-in-out;
+	width: 0;
+}
+
+.is-open .main-navigation {
+	padding: 20px;
+	width: 300px;
+}
+
+.menu,
+.sub-menu {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu {
+	margin-top: 80px;
+}
+
+.menu a {
+	color: #F6F6F7;
+	display: block;
+	padding: 10px 15px;
+}
+
+.menu-item-has-children {
+	position: relative;
+}
+
+a {
+	text-decoration: none;
+}
+
+.sub-menu-toggle {
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	height: 25px; width: 25px;
+	top: 5px; right: 0;
+	text-indent: -9999px;
+}
+
+.sub-menu-toggle::after,
+.sub-menu-toggle::before {
+	background-color: #DA9158;
+	content: '';
+	display: block;
+	height: 2px; width: 15px;
+	margin: auto;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	transition: transform 0.35s ease-in-out;
+}
+
+.sub-menu-toggle::after {
+	transform: rotate(90deg);
+}
+
+.is-toggled .sub-menu-toggle::after {
+	transform: rotate(0);
+}
+
+.sub-menu {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.75s ease-in-out;
+}
+
+.menu-item-has-children.is-toggled .sub-menu {
+	max-height: 100vh;
+}
+//html----------------
+<body>
+	<div class="menu-screen"></div>
+	<header class="site-header">
+		<div class="header-inner">
+			<h1>Drawer Navigation</h1>
+		</div>
+		<button class="button-burger">
+			<span class="screen-reader-text">Menu</span>
+			<span class="bar bar-1"></span>
+			<span class="bar bar-2"></span>
+			<span class="bar bar-3"></span>
+		</button>
+		<nav class="main-navigation">
+			<ul class="menu">
+				<li class="menu-item"><a href="#about">About</a></li>
+				<li class="menu-item menu-item-has-children">
+					<a href="#projects">Projects</a>
+					<ul class="sub-menu">
+						<li class="menu-item"><a href="#client">Client</a></li>
+						<li class="menu-item"><a href="#open-source">Open Source</a></li>
+					</ul>
+				</li>
+				<li class="menu-item menu-item-has-children">
+					<a href="#services">Services</a>
+					<ul class="sub-menu">
+						<li class="menu-item"><a href="#web-design">Design</a></li>
+						<li class="menu-item"><a href="#web-development">Development</a></li>
+					</ul>
+				</li>
+				<li class="menu-item"><a href="#blog">Blog</a></li>
+				<li class="menu-item"><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+</body>
+//javascript--------------------
+const mainNav = document.querySelector( '.main-navigation' ),
+			navToggle = document.querySelector( '.button-burger' ),
+			body = document.querySelector( 'body' ),
+			menuScreen = document.querySelector( '.menu-screen' );
+
+// Toggle classes.
+var addOpenClass = function() {
+	body.classList.toggle( 'is-open' );
+};
+
+// Remove class.
+var removeOpenClass = function() {
+	body.classList.remove( 'is-open' );
+};
+
+// Toggle submenu.
+var toggleSubMenu = function() {
+	
+	this.parentNode.classList.toggle( 'is-toggled' );
+};
+
+// Create the sub-menu toggle
+var addSubMenuToggle = function() {
+	
+	const menuParent = document.querySelectorAll( '.menu-item-has-children' ),
+				toggle = document.createElement( 'button' ),
+				toggleText = document.createTextNode( 'Toggle' );
+	
+	toggle.classList.add( 'sub-menu-toggle' );
+	toggle.append( toggleText );
+	
+	for ( var i = 0, max = menuParent.length; i < max; i++) {
+		menuParent[i].append( toggle );
+	}
+	
+	toggle.addEventListener( 'click', toggleSubMenu );
+};
+
+// Fire events.
+navToggle.addEventListener( 'click', addOpenClass );
+menuScreen.addEventListener( 'click', removeOpenClass );
+window.addEventListener( 'load', addSubMenuToggle );
+
+/////////////////////////////////////////////////////////////////////////
+// table mysql
+////////////////////////////////////////////////////////////////////
+
+CREATE TABLE Groups (
+    groupid INT(11) NOT NULL PRIMARY KEY,
+    title INT(11) NOT NULL,
+    LEVEL TINYINT(1) DEFAULT 1 NOT NULL
+);
+ 
+CREATE TABLE Users(
+    userid INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL ,
+    email VARCHAR (50) NOT NULL ,
+    groupid INT(11)
+);
+ 
+ALTER TABLE Users ADD FOREIGN KEY(groupid) REFERENCES Groups(groupid);
+
+//khoa ngoai tham chieu chinh no
+CREATE TABLE Employee(
+    id INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    fullname VARCHAR(50) NOT NULL,
+    email VARCHAR (50) NOT NULL,
+    leader_id INT (11) NOT NULL,
+    CONSTRAINT pk_self FOREIGN KEY (leader_id) REFERENCES Employee(id) 
+);
+
+
+///////////////////////////////////////////
+//loi php migrate ảtisan
+///////////////////////////////////////////
+https://laravel-news.com/laravel-5-4-key-too-long-error
+https://github.com/laravel/laravel/blob/master/app/Providers/AppServiceProvider.php
+
+
+//////////////////////////////////////////
+//menu responsive
+//////////////////////////////////////////
+https://codepen.io/zoeimagen/pen/ZbBejK
+
+
+////////////////////////////////////
+//chen css js vao laravel 
+///////////////////////////////////////
+ở view bạn gọi css và js ra như thế nào? Đối với CSS phải gọi như sau:
+{{HTML::style('css/metro-bootstrap.css');}}
+và JS:
+{{HTML::script('js/jquery.min.js');}}
+
+////////////////////////////
+//test query codeigniter
+/////////////////////////////
+https://stackoverflow.com/questions/6142099/how-to-print-sql-statement-in-codeigniter-model
+
+//////////////////////////
+//style css wordpress not change
+//////////////////////////
+https://wordpress.stackexchange.com/questions/107513/css-not-updating-in-browser-when-i-change-it
+
+//////////////////////////
+//trigger jquery example
+/////////////////////////
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("input").trigger("click");
+  });
+});
+</script>
+</head>
+<body>
+
+<input type="file" id="abc"><br><br>
+
+<button>Trigger the select event for the input field</button>
+
+</body>
+</html>
+
+///////////////////////////////
+//show promt khong bam nut js
+/////////////////////////////////
+<script type="text/javascript">
+<!--
+	var userName=prompt("Username","")
+	var passWord=prompt("Password","")
+	if (passWord!="") {
+	url = 'result.php'
+	window.open(url);//should let you download file.
+	}
+	else {
+	window.close;//should close browser?
+	}
+//-->
+</script>
+
+////////////////////////////
+//admin template free
+////////////////////////////
+https://github.com/puikinsh/ElaAdmin
+https://github.com/colorlibhq/AdminLTE
+https://github.com/ColorlibHQ/gentelella
+
+//////////////////////////////
+//link theme wordpress
+//////////////////////////////
+https://drive.google.com/drive/folders/1U0wOq6j4ZnngAq3-6nqoCSGLT8bV6wgW?fbclid=IwAR3UZvKV7CGNP3a4y8J86rOmwoYQkg6PeU88H0Ykv4XR4RE58_BIEA0VLSE
+
+////////////////////////////
+//plugin wordprress
+///////////////////////////////
+https://drive.google.com/drive/folders/1fCcli9_B8iShCoe4se7AFAxfFH8OqYNw?fbclid=IwAR2Eza0f4tSpafvZAB65T2ONJrw_xJGnB9_BAlNUggg9H7NPzgY8VmJXoeE
+
+///////////////////////////
+//add code to last commit git
+//////////////////////////
+git add .....
+git commit --amend --no-edit
+
+//////////////////////////////
+//pass data to modal
+/////////////////////////////
+https://stackoverflow.com/questions/10626885/passing-data-to-a-bootstrap-modal
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  .modal-header, h4, .close {
+    background-color: #5cb85c;
+    color:white !important;
+    text-align: center;
+    font-size: 30px;
+  }
+  .modal-footer {
+    background-color: #f9f9f9;
+  }
+  </style>
+</head>
+<body>
+
+<div id="modal-confirm-delete" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+				<h4 class="modal-title">Confirm Delete</h4>
+			</div>
+			<div class="modal-body">
+				<p>Are you sure you want to delete?</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+				<a href="#" class="btn btn-danger btn-delete">Delete</a>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<a data-toggle="modal" data-target="#modal-confirm-delete" data-book-id="haha" class="btn btn-success">Submit</a>
+  
+  
+ 
+<script>
+$('#modal-confirm-delete').on('show.bs.modal', function(e) {
+    var bookId = $(e.relatedTarget).data('book-id');
+    $(".btn-delete").attr("href", bookId);
+});
+    
+
+</script>
+
+</body>
+</html>
+
+////////////////////////////
+//cac ham xu li ngay thang
+/////////////////////////////
+https://toidicode.com/xu-ly-ngay-thang-trong-php-73.html
+https://www.php.net/manual/en/function.date.php
+https://stackoverflow.com/questions/13194322/php-regex-to-check-date-is-in-yyyy-mm-dd-format
+https://stackoverflow.com/questions/10306999/php-convert-date-format-dd-mm-yyyy-yyyy-mm-dd
+
+/////////////////////////////////////////////
+//regx validate email
+//////////////////////////////////
+^[a-z][a-z0-9_\.]{5,32}@[a-z0-9]{2,}(\.[a-z0-9]{2,4}){1,2}$
+^[a-zA-Z0-9.+\/_-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$
+
+///////////////////////////////////////////////
+///lenh linux co ban
+//////////////////////////////////////////////
+cd ten thu muc
+dan: chuot phai + enter
+
+//////////////////////////////////////////////
+//add class to td datatable
+/////////////////////////////////////////////
+https://datatables.net/reference/option/columns.className
+
+//////////////////////////////////////////
+///bat su kien inner html
+/////////////////////////////////////////
+https://stackoverflow.com/questions/15657686/jquery-event-detect-changes-to-the-html-text-of-a-div
+$("#classes").bind("DOMSubtreeModified",function(){
+			$("#classes").valid();
+		});
+
+
+////////////////////////////////////
+////trick jquery
+//////////////////////////////////////
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("input").trigger("click");
+  });
+});
+</script>
+</head>
+<body>
+
+<input type="file" id="abc"><br><br>
+
+<button>Trigger the select event for the input field</button>
+
+</body>
+</html>
+
+///////////////////////////////////
+//jquery validation, jquery validate tieng viet
+////////////////////////////////
+https://viblo.asia/p/tim-hieu-ve-jquery-validation-phan-1-E375zEqRlGW
+https://stackoverflow.com/questions/13671710/jquery-form-validation-on-button-click
+http://jsfiddle.net/aog1tgz1/
+/////////////////////////////////////
+//self va this
+/////////////////////////////////////
+class ParentClass {
+	function test() {
+		self::who();	// will output 'parent'
+		$this->who();	// will output 'child'
+	}
+
+	function who() {
+		echo 'parent';
+	}
+}
+
+class ChildClass extends ParentClass {
+	function who() {
+		echo 'child';
+	}
+}
+
+$obj = new ChildClass();
+$obj->test();
+
+http://scribu.net/blog/self-keyword-in-php.html
+
+////////////////////////////
+//limit in sql
+//////////////////////////////
+LIMIT start, limit
+
+//////////////////////////////////
+//giai thich array object json
+//////////////////////////////////
+https://stackoverflow.com/questions/12764208/javascript-objects-vs-arrays-vs-json
+
+///////////////////////////////
+//add method jquery
+///////////////////////////////
+https://codepen.io/julmot/pen/NAYYBE
+
+var $form = $("form"),
+  $successMsg = $(".alert");
+$.validator.addMethod("letters", function(value, element) {
+  return this.optional(element) || value == value.match(/^[a-zA-Z ]*$/);
+});
+
+$.validator.addMethod("laxEmail", function(value, element) {
+  return this.optional( element ) || /^[a-zA-Z0-9.!#$%&'*+\/=?^_`{|}~-]+@(?:\S{1,63})$/.test( value );
+}, 'Please enter a valid email address.');
+
+$form.validate({
+  rules: {
+    name: {
+      required: true,
+      minlength: 3,
+      letters: true
+    },
+    email: {
+      required: true,
+      laxEmail: true
+    }
+  },
+  messages: {
+    name: "Please specify your name (only letters and spaces are allowed)",
+    email: "Please specify a valid email address"
+  },
+  submitHandler: function() {
+    $successMsg.show();
+  }
+});
+
+////////////////////////////////////////////
+///max array
+////////////////////////////////////////////
+https://www.plus2net.com/php_tutorial/array_max.php
+
+///////////////////////////////////
+/php strtolower utf8 với tiếng Việt
+//////////////////////////////////
+https://webdesignviet.wordpress.com/2014/11/05/php-strtolower-utf8-voi-tieng-viet/
+
+//////////////////////////////////////
+//keydown va onkeydown
+//////////////////////////////////////
+https://stackoverflow.com/questions/37265440/jquery-onkeydown-not-working-when-appended-to-page
+
+////////////////////////////////
+//select option load ajax
+///////////////////////////////////
+document.getElementById("center").selectedIndex = 0;
+https://stackoverflow.com/questions/4287408/how-to-reset-dropdown-list-select-on-back-button-of-browser-using-javascript
+
+/////////////////////////////////////////
+//datatable rowsgroup rowspan gop hang
+//////////////////////////////////////////////
+http://live.datatables.net/bodanole/1/edit
+https://datatables.net/forums/discussion/29319/new-rowsgroup-plugin-merge-cells-vertically-rowspan
+https://jsfiddle.net/gyrocode/efuwgg1L/
+
+////////////////////////////////////////
+/// trigger change (kich hoat su kien change)
+/////////////////////////////////////////
+$("#categorySelect").trigger('change');
+
+////////////////////////////////////////////
+//bug modal auto close
+////////////////////////////////////////////
+https://github.com/twbs/bootstrap/issues/252
+
+////////////////////////////////////////////
+//call function in controller hmvc
+///////////////////////////////////////////
+https://stackoverflow.com/questions/14947261/codeigniterhmvc-cross-module-call-controller-method
+
+///////////////////////////////////////////////////////////
+//call function in controller in view (goi function trong view)
+//////////////////////////////////////////////////////////
+
+https://stackoverflow.com/questions/9986520/how-to-call-codeigniter-controller-function-from-view
+in controller:
+
+fn1 {
+	$object['controller'] = $this; 
+
+	$this->data['ctl'] = $object['controller'];
+
+	$this->load->view('order_history');
+}
+
+public function getStatus($id)
+	{
+		
+		$query = $this->db->get_where('order_status', array('id' => $id));
+
+		$row = $query->row_array();
+
+		echo $row['status'];
+
+	}
+
+in view: order_history
+
+<?php $ctl->getStatus($history['to']) ;?>
+
+///////////////////////////////////////////
+//get mac address php
+///////////////////////////////////////////
+$string = exec('getmac');
+
+$mac = substr($string, 0, 17); 
+
+echo  $mac; exit();
+
+/////////////////////////////////////////
+//cac ham xu ly chuoi php
+/////////////////////////////////////////
+https://www.w3schools.com/php/func_string_strpos.asp
+https://www.php.net/manual/en/function.substr.php
+
+////////////////////////////////////////
+//check so dien thoai (phone)
+////////////////////////////////////////
+private function checkPhoneNumber($phone) {
+
+        $prefixPhoneVN = '086|096|097|098|032|033|034|035|036|037|038|039|090|093|070|079|077|076|078|091|094|083|084|085|081|082|092|056|058|099|059';
+
+        if (strlen($phone) >= 10) {
+            
+            return preg_match('/^('.$prefixPhoneVN.')\d+/', $phone);
+            
+        } else {
+            
+            return false;
+
+        }
+        
+    }
+
+/////////////////////////////////////////
+//check isset javascript
+/////////////////////////////////////////
+https://stackoverflow.com/questions/2281633/javascript-isset-equivalent
+
+/////////////////////////////////////////
+//curl lay hinh anh
+///////////////////////////////////////////
+ public function grab_image($url,$saveto){
+	$ch = curl_init ($url);
+	curl_setopt($ch, CURLOPT_HEADER, 0);
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+	curl_setopt($ch, CURLOPT_BINARYTRANSFER,1);
+	$raw=curl_exec($ch);
+	curl_close ($ch);
+	if(file_exists($saveto)){
+		unlink($saveto);
+	}
+	$fp = fopen($saveto,'x');
+	fwrite($fp, $raw);
+	fclose($fp);
+}
+
+public function ketqua()
+{
+	$this->grab_image('http://www.gravatar.com/avatar/10773ae6687b55736e171c038b4228d2', 'C:\Users\DAT\Downloads\datgg.png');
+}
+
+////////////////////////////////////////////
+///load ajax data with custom parameters
+//////////////////////////////////////////
+https://datatables.net/forums/discussion/23262/load-ajax-data-with-custom-parameters
+
+///////////////////////////////////////////
+///lay gia tri bien tu event ra ngoai
+///////////////////////////////////////////
+https://stackoverflow.com/questions/36124339/jquery-how-to-get-variable-outside-event-function
+
+////////////////////////////////////////////
+//ion auth, get user by id
+///////////////////////////////////////////
+$user = $this->ion_auth->user($id)->row();
+$user = $this->ion_auth->user()->row_array();
+
+/////////////////////////////////////////
+//where va having
+/////////////////////////////////////////
+https://daynhauhoc.com/t/su-khac-nhau-giua-where-va-having/21676/2
+
+/////////////////////////////////////////
+////bai tap php javascript
+/////////////////////////////////////////
+https://www.w3resource.com/php/classes-objects/php-object-oriented-programming.php#createclass
+
+/////////////////////////////////////////
+//nguon, tai lieu, trang web hoc tap
+////////////////////////////////////////
+https://tutsplus.com/
+https://www.w3resource.com
+https://www.codexworld.com
+
+////////////////////////////////////////
+//revert commit, delete commit unpushed
+////////////////////////////////////////
+git revert 364705c
+git push
+https://stackoverflow.com/questions/6459080/how-can-i-undo-a-git-commit-locally-and-on-a-remote-after-git-push
+
+Delete the most recent commit, keeping the work you've done:
+
+git reset --soft HEAD~1
+Delete the most recent commit, destroying the work you've done:
+
+git reset --hard HEAD~1
+
+////////////////////////////////////////
+//rename commit
+///////////////////////////////////////
+git commit --amend
+
+"insert" de them noi dung
+
+:wq de xac nhan doi ten
+
+
+///////////////////////////////////////
+///server test, hosting test
+////////////////////////////////////////
+https://vn.000webhost.com
+dang nhap = email ladat66@gmail.com
+name: datla01
+pass: mk1
+
+//////////////////////////////////////////////////////
+// bug login facebook, Error URL Blocked Client OAuth
+//////////////////////////////////////////////////////
+https://www.youtube.com/watch?v=p5HqaOy7TX8&feature=youtu.be&fbclid=IwAR3BK0qwHLhUJQuP2eeybtryB5f-HHa1G_y89CQJAIjZRfsbBqg9mWG4rq8
+
+/////////////////////////////////////////
+///medium
+/////////////////////////////////////////
+https://forge.medium.com/to-do-better-work-change-your-environment-a27296aabee5
+https://forge.medium.com/how-to-stop-overthinking-c3a98e81dc2a
+https://www.syncwithtech.org/member-only-content-free-medium/
+
+/////////////////////////////////////////
+// css tam giac, triangle
+/////////////////////////////////////////
+https://codepen.io/miroot/pen/qwIgC
+
+////////////////////////////////////////////
+//loi codeigniter 500 internal server error
+////////////////////////////////////////////
+https://stackoverflow.com/questions/6674689/codeigniter-php-apache-500-internal-server-error/43700400
+
+////////////////////////////////////////
+///array, objects in postman
+////////////////////////////////////////
+
+Here is my solution:
+
+use form-data and edit as below:
+
+Key       Value 
+box[]      a
+box[n1]    b
+box[n2][]  c
+box[n2][]  d
+and you will get an array like this:
+
+{"box":{"0":"a","n1":"b","n2":["c","d"]}}
+
+------------
+
+order_list[0][menu_id]		75
+order_list[0][size]			L
+order_list[0][quantity]		1
+
+ket qua:
+array (size=1)
+  0 => 
+    array (size=3)
+      'menu_id' => string '75' (length=2)
+      'size' => string 'L' (length=1)
+      'quantity' => string '1' (length=1)
+
+
+https://stackoverflow.com/questions/12756688/is-it-possible-to-send-an-array-with-the-postman-chrome-extension
+
+
+/////////////////////////////////
+//login google php
+/////////////////////////////////
+https://www.youtube.com/watch?v=hazMyK_cnzk
+https://code.tutsplus.com/tutorials/create-a-google-login-page-in-php--cms-33214
+
+//////////////////////////////////////
+//login facebook php
+//////////////////////////////////////
+https://developers.facebook.com/docs/graph-api/using-graph-api/
+
+https://stackoverflow.com/questions/22402343/how-to-get-user-profile-info-using-access-token-in-php-sdk
+
+https://stackoverflow.com/questions/3546677/how-to-get-the-facebook-user-id-using-the-access-token
+
+https://developers.facebook.com/docs/graph-api/using-graph-api/
+
+https://developers.facebook.com/docs/facebook-login/web/accesstokens
+
+https://developers.facebook.com/docs/graph-api/using-graph-api/
+
+https://www.youtube.com/watch?v=gNFQkVeOXa0
+
+EAAKuUTJsvRcBAM1lmjHIn5mbnqUWi2J7SWb32ZCWe6LKVqOqrzjzJbLD1qkWEhZBcXdtrthWuIKkGi7ix4Ktlx4MC68hLSxF32xHfZCptkQ39X756togBww4k3CboAuBXMYz6jE5S0H4afXEtdeqKenpMSd69llAEks7sHb7gykM3KIzNvSoVmQQCZCpenEZD
+
+https://developers.facebook.com/blog/post/2011/01/14/platform-updates--new-user-object-fields--edge-remove-event-and-more/
+
+https://developers.facebook.com/tools/explorer/754613714992407?method=GET&path=me%3Ffields%3Dfirst_name%2Cname%2Cemail%2Clast_name%2Caddress&version=v4.0
+
+EAAKuUTJsvRcBAC8qgmw98CJPfzZB2ORpFAJoAQGoyBy74Gdr1qQePGWGMMezci7ww6pvzkEVw1D49122xsVyZCLD1bMzR7DnCPUD1ozF7kcLwn8ZAVOGYI5G4q7ZCW3laPQDofq5ZBRwMUc7TUZA2JwaD2DZBaDo4J5vGYBFOcqwgOfcqQjyyYVR9crY19yZBOyuexxRwvvibQZDZD
+
+
+////////////////////////////////////////////
+//learn laravel
+///////////////////////////////////////////
+https://viblo.asia/p/lam-the-nao-de-test-skill-junior-laravel-6J3ZgwnWZmB
+https://laraveldaily.com/test-junior-laravel-developer-sample-project/
+https://viblo.asia/tags/laravel
+https://www.tutorialspoint.com/laravel/laravel_overview.htm
+
+////////////////////////////////////////////
+//check error image jquery php
+///////////////////////////////////////////
+$('img').error(function() {
+    $(this).attr('src', '/no-img.png').addClass('no-img');
+});
+https://stackoverflow.com/questions/9815762/detect-when-an-image-fails-to-load-in-javascript
+
+
+if(@is_array(getimagesize($mediapath))){
+    $image = true;
+} else {
+    $image = false;
+}
+https://stackoverflow.com/questions/15408125/php-check-if-file-is-an-image
+
+/////////////////////////////////////////////////////
+////model diagram, class diagram, database design, ER Diagram
+/////////////////////////////////////////////////////
+
+
+////////////////////////////////////////////////
+//Drag and drop
+////////////////////////////////////////////////
+https://stackoverflow.com/questions/24151886/child-elements-are-allowing-drag-drop
+
+
+////////////////////////////////////////////////
+///add class active javascript
+////////////////////////////////////////////////
+https://stackoverflow.com/questions/33059725/adding-class-or-cssactive-using-javascript
+
+////////////////////////////////////////////////
+//save array to mysql
+////////////////////////////////////////////////
+https://stackoverflow.com/questions/1978438/save-php-array-to-mysql
+
+///////////////////////////////////////////////
+//dem so class jquery
+///////////////////////////////////////////////
+$('.selected').length
+https://stackoverflow.com/questions/5148509/jquery-class-each-how-many-items
+
+////////////////////////////////////////////
+// key word base code codeigniter, laravel
+////////////////////////////////////////////
+codeigniter admin crud, laravel admin panel
+
+//////////////////////////////////
+//laravel step by step
+//////////////////////////////////
+composer create-project --prefer-dist laravel/laravel blog
+
+//////////////////////////////////
+//fullcalendar
+//////////////////////////////////
+https://stackoverflow.com/questions/27920314/fullcalendar-add-events-dynamically
+https://stackoverflow.com/questions/44366292/how-to-create-a-full-day-event-in-fullcalendar
+https://fullcalendar.io/docs/eventClick
+https://therichpost.com/refetch-fullcalendar-events-resources-select-change-event/
+
+/////////////////////////////////
+//nguon hoc tieng anh, english
+//////////////////////////////////
+https://kenhtuyensinh.vn/top-10-website-hoc-tieng-anh-online-mien-phi-danh-cho-hssv
+https://www.examenglish.com/
+
+////////////////////////////////////
+//cau truc khac if else
+////////////////////////////////////
+($this->user->gender == 1) ? "Nam" : "Nữ",
+
+
+///////////////////////////////////
+//each jquery
+//////////////////////////////////
+$( "li" ).each(function( index ) {
+  console.log( index + ": " + $( this ).text() );
+});
+
+/////////////////////////////////////
+//disable click css
+/////////////////////////////////////
+.disabledTab {
+	pointer-events: none;
+}
+
+///////////////////////////////////////
+//load module hmvc
+////////////////////////////////////////
+$mCourses = modules::load('Courses');
+$mCourses->load->model('T_courses');
+$this->data['courses'] = $mCourses->T_courses->getCoursesTeacher();
+
+///////////////////////////////////////////////
+//ajax submit form jquery
+///////////////////////////////////////////////
+https://stackoverflow.com/questions/1960240/jquery-ajax-submit-form
+
+///////////////////////////////////////////////
+//get value select option jquery
+//////////////////////////////////////////////
+https://www.tutorialrepublic.com/faq/how-to-get-the-value-of-selected-option-in-a-select-box-using-jquery.php
+
+$(document).ready(function(){
+    $("select.country").change(function(){
+        var selectedCountry = $(this).children("option:selected").val();
+        alert("You have selected the country - " + selectedCountry);
+    });
+});
+
+
+////////////////////////////////////////////////////
+//Push an existing Git repository
+/////////////////////////////////////////////////////
+cd existing_repo
+git remote rename origin old-origin
+git remote add origin git@gitlab.com:ladat66/qlnhanvien.git
+git push -u origin --all
+git push -u origin --tags
+
+
+////////////////////////////////////////////////////////
+//request in laravel
+//////////////////////////////////////////////////////
+https://viblo.asia/p/co-ban-ve-request-trong-laravel-bWrZnER9Kxw
+
+
+/////////////////////////////////////////////////////
+//laravel auth
+/////////////////////////////////////////////////////
+https://stackoverflow.com/questions/34545641/php-artisan-makeauth-command-is-not-defined
+
+
+////////////////////////////////////////////////////
+//cach hoc lap trinh
+////////////////////////////////////////////////////
+nhay vao code neu gap bug thi search gg, doc ,stackoverflow
+
+///////////////////////////////////////////////////
+//backlink seo
+//////////////////////////////////////////////////
+https://community.lat.vn/threads/list-danh-sach-dien-dan-forum-backlink-dofollow-mien-phi.649/?fbclid=IwAR1C6Ul9bSttE1Ve4NVcaO4D9eBUKsE6lrmX1Z0tnMeI4GOAnoPNgYb6kjY
+
+composer require paragonie/random_compat=~2.0
+composer require laravel/passport=~4.0
+
+php artisan route:list
+
+
+////////////////////////////////////////////////
+//xoa, clear cmd
+////////////////////////////////////////////////
+cls
+
+///////////////////////////////////////////////
+//start server laravel
+///////////////////////////////////////////////
+php artisan ser
+
+///////////////////////////////////////////////
+//update composer
+///////////////////////////////////////////////
+composer update
+
+///////////////////////////////////////////////
+//jwt tutorial
+///////////////////////////////////////////////
+https://www.youtube.com/watch?v=5kmr55zUcQM
+https://jwt-auth.readthedocs.io/en/develop/
+
+//////////////////////////////////////////////
+//test connection database laravel
+/////////////////////////////////////////////
+web.php
+Route::get('/test', function () {
+	try {
+		DB::connection()->getPdo();
+	} catch (\Exception $e) {
+		die("Could not connect to the database.  Please check your configuration. error:" . $e );
+	}
+});
+
+/////////////////////////////////////////////
+//redux framework wordpress
+/////////////////////////////////////////////
+https://thachpham.com/wordpress/wordpress-development/lap-trinh-theme-wordpress-them-chuc-nang-theme-options.html
+https://code.tutsplus.com/vi/tutorials/getting-started-with-redux-framework-introducing-it-and-integrating-it-into-your-theme--cms-22240
+
 sudo apt-get -f install
 
 check version ubuntu
