@@ -1117,3 +1117,26 @@ fix bug The stream or file "/var/www/html/blog/storage/logs/laravel.log" could n
 sudo chgrp -R www-data storage bootstrap/cache
 sudo chmod -R ug+rwx storage bootstrap/cache
 https://laracasts.com/discuss/channels/laravel/laravel-installation-on-centos-68?page=1
+
+/////////////////////////////////////////////////////////////////
+//fix bug login mysql ubuntu, loi khong ket noi database laravel
+/////////////////////////////////////////////////////////////////
+OPTION 1 - to change the plugin of root user.
+sudo mysql -u root -p
+use mysql
+select user, host, plugin from mysql.user;
+update user set plugin="mysql_native_password" where User="root";
+flush privileges;
+exit;
+
+OPTION 2 - Replace USER with the username you have.
+1. sudo mysql -u root -p
+2. use mysql;
+3. select user, host, plugin from mysql.user;
+4. create user 'username'@'localhost' identified by 'password';
+5. grant all privileges on *.* to 'username'@'localhost';
+6. update user set plugin = "auth_socket" where user='username';
+7. flush privileges;
+8. exit;
+9. sudo service mysql restart
+https://www.youtube.com/watch?v=NdQL-mUGnUE
