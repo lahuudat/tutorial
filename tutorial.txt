@@ -1,0 +1,28 @@
+sudo apt-get -f install
+
+check version
+lsb_release -a
+
+fix bug khong the truy cap 
+https://www.youtube.com/watch?v=WqUAjhrNqu0
+
+setup lamp
+https://www.codehub.vn/Cai-Dat-LAMP-tren-Ubuntu-18-04#
+https://www.youtube.com/watch?v=TNwCGttYrlM
+
+setup phpmyadmin ubuntu
+https://www.hostingadvice.com/how-to/install-phpmyadmin-on-ubuntu/
+
+user: debian-sys-maint
+pass: yoWBhJKOxvJ1Z6Pv
+
+fix bug not create database
+https://stackoverflow.com/questions/11427091/phpmyadmin-says-no-privilege-to-create-database-despite-logged-in-as-root-user
+
+fix install composer
+https://www.linuxuprising.com/2018/07/how-to-fix-could-not-get-lock.html
+
+fix bug The stream or file "/var/www/html/blog/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied'
+sudo chgrp -R www-data storage bootstrap/cache
+sudo chmod -R ug+rwx storage bootstrap/cache
+https://laracasts.com/discuss/channels/laravel/laravel-installation-on-centos-68?page=1
