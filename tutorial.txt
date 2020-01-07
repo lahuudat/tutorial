@@ -1150,3 +1150,8 @@ git pull rebase origin master
 //quan he relationships in laravel tieng viet
 /////////////////////////////////////////////////////
 https://viblo.asia/p/eloquent-relationships-in-laravel-phan-3-MJykjmxyePB
+
+///////////////////////////////////////////////////
+//debug get sql query laravel
+///////////////////////////////////////////////////
+dd($this->lesson->find($id)->toSql());
