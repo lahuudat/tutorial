@@ -1162,3 +1162,11 @@ dd($this->lesson->find($id)->toSql());
 Git add file1 file2 
 Git commit-m “xxx”
 Git push origin branch yyy
+
+////////////////////////////////////////////
+//branch
+////////////////////////////////////////////
+xem nhanh: git branch
+them nhanh moi: git branch tennhanh
+xoa nhanh: git branch -d tennhanh
+su dung nhanh: git checkout tennhanh
