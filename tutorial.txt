@@ -1155,3 +1155,10 @@ https://viblo.asia/p/eloquent-relationships-in-laravel-phan-3-MJykjmxyePB
 //debug get sql query laravel
 ///////////////////////////////////////////////////
 dd($this->lesson->find($id)->toSql());
+
+//////////////////////////////////////////////////
+//git step, su dung git
+//////////////////////////////////////////////////
+Git add file1 file2 
+Git commit-m “xxx”
+Git push origin branch yyy
