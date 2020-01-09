@@ -1176,3 +1176,8 @@ su dung nhanh: git checkout tennhanh
 ///////////////////////////////////////////
 sudo chmod -R a+rwx /path/to/folder
 https://smallbusiness.chron.com/give-permissions-ubuntu-33174.html
+
+///////////////////////////////////////////
+//app bao ve mat ubuntu
+///////////////////////////////////////////
+workrave in ubuntu
