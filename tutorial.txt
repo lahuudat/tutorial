@@ -1170,3 +1170,9 @@ xem nhanh: git branch
 them nhanh moi: git branch tennhanh
 xoa nhanh: git branch -d tennhanh
 su dung nhanh: git checkout tennhanh
+
+////////////////////////////////////////////
+//mo khoa thu muc, file ubuntu
+///////////////////////////////////////////
+sudo chmod -R a+rwx /path/to/folder
+https://smallbusiness.chron.com/give-permissions-ubuntu-33174.html
