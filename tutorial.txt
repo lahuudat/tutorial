@@ -1181,3 +1181,12 @@ https://smallbusiness.chron.com/give-permissions-ubuntu-33174.html
 //app bao ve mat ubuntu
 ///////////////////////////////////////////
 workrave in ubuntu
+
+//////////////////////////////////
+//debug wordpress
+/////////////////////////////////
+<?php
+    echo '<pre>';
+    print_r ($wp_query);
+    echo '</pre>';
+?>
