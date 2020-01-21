@@ -1190,3 +1190,8 @@ workrave in ubuntu
     print_r ($wp_query);
     echo '</pre>';
 ?>
+
+/////////////////////////////////
+//loi laravel the requested url was not found on this server
+/////////////////////////////////
+https://stackoverflow.com/questions/28242495/laravel-the-requested-url-was-not-found-on-this-server
