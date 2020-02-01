@@ -1195,3 +1195,8 @@ workrave in ubuntu
 //loi laravel the requested url was not found on this server
 /////////////////////////////////
 https://stackoverflow.com/questions/28242495/laravel-the-requested-url-was-not-found-on-this-server
+
+////////////////////////////////
+//send mail laravel 6
+/////////////////////////////////////
+https://www.youtube.com/watch?v=UUtuw6QPQMQ
