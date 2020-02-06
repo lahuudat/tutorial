@@ -1200,3 +1200,19 @@ https://stackoverflow.com/questions/28242495/laravel-the-requested-url-was-not-f
 //send mail laravel 6
 /////////////////////////////////////
 https://www.youtube.com/watch?v=UUtuw6QPQMQ
+
+///////////////////////////////////////
+//git bap
+//////////////////////////////////////
+git checkout -b task-#123-implement-login
+git checkout develop
+git commit --amend --no-edit
+git push origin task-#0015184-9-make-migration
+git push origin ten_nhanh_dang_lam -f
+git commit -m"
+Tiêu đề 
+
+ - Nội dung 1 
+ - Nội dung 2
+
+Task liên quan"
