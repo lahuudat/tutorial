@@ -1216,3 +1216,11 @@ Tiêu đề
  - Nội dung 2
 
 Task liên quan"
+
+/////////////////////////////////////
+// amazon s3
+////////////////////////////////////
+https://www.youtube.com/results?search_query=save+file+to+s3+php+laravel
+https://www.youtube.com/watch?v=nMDIVQsESBY
+https://viblo.asia/p/su-dung-aws-s3-de-luu-tru-file-trong-laravel-YWOZr6kEZQ0
+http://pinlaz.com/vi/dung-amazon-s3-upload-file-trong-laravel_73.html
