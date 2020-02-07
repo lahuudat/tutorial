@@ -1230,3 +1230,8 @@ http://pinlaz.com/vi/dung-amazon-s3-upload-file-trong-laravel_73.html
 ////////////////////////////////////
 sudo gedit index.html
 https://askubuntu.com/questions/271197/not-able-to-save-files
+
+////////////////////////////////////
+//auth laravel 6
+////////////////////////////////////
+https://www.itsolutionstuff.com/post/laravel-6-multi-auth-authentication-tutorialexample.html
