@@ -1240,3 +1240,9 @@ https://www.itsolutionstuff.com/post/laravel-6-multi-auth-authentication-tutoria
 //pass 123456 laravel
 ////////////////////////////////////
 $2y$10$780XE/w8ZEYOqLm88dViGe.voou5y7kpi7kB4g94UXKNPF2.p7ltG
+
+//////////////////////////////////
+// rename branch
+//////////////////////////////////
+git branch -m new-name
+https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch-in-git/
