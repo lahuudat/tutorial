@@ -1235,3 +1235,8 @@ https://askubuntu.com/questions/271197/not-able-to-save-files
 //auth laravel 6
 ////////////////////////////////////
 https://www.itsolutionstuff.com/post/laravel-6-multi-auth-authentication-tutorialexample.html
+
+////////////////////////////////////
+//pass 123456 laravel
+////////////////////////////////////
+$2y$10$780XE/w8ZEYOqLm88dViGe.voou5y7kpi7kB4g94UXKNPF2.p7ltG
