@@ -1251,3 +1251,8 @@ https://multiplestates.wordpress.com/2015/02/05/rename-a-local-and-remote-branch
 //pagination laravel
 ///////////////////////////////////
 https://blog.hashvel.com/posts/laravel-custom-pagination/
+
+//////////////////////////////////
+//huong dan transactions laravel return
+//////////////////////////////////
+https://stackoverflow.com/questions/48058240/laravel-have-transactions-status
