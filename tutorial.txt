@@ -1256,3 +1256,8 @@ https://blog.hashvel.com/posts/laravel-custom-pagination/
 //huong dan transactions laravel return
 //////////////////////////////////
 https://stackoverflow.com/questions/48058240/laravel-have-transactions-status
+
+/////////////////////////////////////
+//pass param to transactions laravel
+/////////////////////////////////////
+https://stackoverflow.com/questions/17084723/how-to-pass-parameter-to-laravel-dbtransaction
