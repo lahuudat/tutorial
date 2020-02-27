@@ -1261,3 +1261,9 @@ https://stackoverflow.com/questions/48058240/laravel-have-transactions-status
 //pass param to transactions laravel
 /////////////////////////////////////
 https://stackoverflow.com/questions/17084723/how-to-pass-parameter-to-laravel-dbtransaction
+
+///////////////////////////////////////
+//thong tin heroku
+////////////////////////////////////////
+email: ladat66@gmail.com
+pass: H...6@
