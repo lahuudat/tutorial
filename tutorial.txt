@@ -1155,6 +1155,7 @@ https://viblo.asia/p/eloquent-relationships-in-laravel-phan-3-MJykjmxyePB
 //debug get sql query laravel
 ///////////////////////////////////////////////////
 dd($this->lesson->find($id)->toSql());
+https://stackoverflow.com/questions/18236294/how-do-i-get-the-query-builder-to-output-its-raw-sql-query-as-a-string
 
 //////////////////////////////////////////////////
 //git step, su dung git
