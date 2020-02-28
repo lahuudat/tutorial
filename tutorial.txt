@@ -1268,3 +1268,8 @@ https://stackoverflow.com/questions/17084723/how-to-pass-parameter-to-laravel-db
 ////////////////////////////////////////
 email: ladat66@gmail.com
 pass: H...6@
+
+///////////////////////////////////////
+//search like in laravel
+///////////////////////////////////////
+https://stackoverflow.com/questions/30761950/laravel-5-like-equivalent-eloquent
