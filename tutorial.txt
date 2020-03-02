@@ -1273,3 +1273,45 @@ pass: H...6@
 //search like in laravel
 ///////////////////////////////////////
 https://stackoverflow.com/questions/30761950/laravel-5-like-equivalent-eloquent
+
+////////////////////////////////////////
+//return object in eloquent laravel
+////////////////////////////////////////
+public function showVideo($video)
+    {
+        auth()->user() != null ? $userId = auth()->user()->id : $userId = null;
+        $videoArr = array();
+        foreach ($video as $vVideo) {
+            $item['id'] = $vVideo->id;
+            $item['title'] = $vVideo->title;
+            $item['url'] = $vVideo->url;
+            $item['user_id'] = $vVideo->user_id;
+            $item['thumbnail'] = $vVideo->thumbnail;
+            $item['description'] = $vVideo->description;
+            $item['category_id'] = $vVideo->category_id;
+            $item['like_count'] = $vVideo->like_count;
+            $item['share_count'] = $vVideo->share_count;
+            $item['comment_count'] = $vVideo->comment_count;
+            $item['view_count'] = $vVideo->view_count;
+            $item['search_count'] = $vVideo->search_count;
+            $item['enable_comment'] = $vVideo->enable_comment;
+            $item['enable_campaign'] = $vVideo->enable_campaign;
+            $item['video_resize_mode'] = $vVideo->video_resize_mode;
+            $item['user_following'] = $this->checkFollow($userId, $vVideo->user_id);
+            $item['user_like_video'] = $this->checkLikeVideo($userId, $vVideo->id);
+            $item['status'] = $vVideo->status;
+            $item['created_at'] = date_format($vVideo->created_at, "Y-m-d H:i:s");
+            $item['updated_at'] = date_format($vVideo->updated_at, "Y-m-d H:i:s");
+            $item['first_name'] = $vVideo->first_name;
+            $item['user']['first_name'] = $vVideo->first_name;
+            $item['user']['last_name'] = $vVideo->last_name;
+            // $oVal = new \stdClass();
+            // $oVal->last_name = $vVideo->last_name;
+            // $oVal->first_name = $vVideo->first_name;
+            // $item['last_name'] = $vVideo->last_name;
+            // $item['first_name'] = $vVideo->first_name;
+            // $item['user_avatar'] = $vVideo->user_avatar;
+            $videoArr[] = $item;
+        }
+        return $videoArr;
+    }
