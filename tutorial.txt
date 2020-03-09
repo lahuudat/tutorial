@@ -1315,3 +1315,9 @@ public function showVideo($video)
         }
         return $videoArr;
     }
+
+////////////////////////////////////
+///////firebase laravel
+////////////////////////////////////////
+https://github.com/brozot/Laravel-FCM
+https://www.youtube.com/watch?v=FHJ5GIsP2_I&t=1624s
