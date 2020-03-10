@@ -489,6 +489,20 @@ https://regexr.com/3g1v7
 /(http(s?):)([/|.|\w|\s|-])*\.(?:jpg|gif|png)/g
 
 ///////////////////////////////////////////////
+//regx vali khoang trang
+///////////////////////////////////////////////
+https://stackoverflow.com/questions/206059/php-validation-regex-for-url
+$username = 'lahuudat';
+if (!preg_match(
+    '/^(?=[a-z]{2})(?=.{4,26})(?=[^.]*\.?[^.]*$)(?=[^_]*_?[^_]*$)[\w.]+$/iD',
+    $username
+)) {
+    dd('false');
+} else {
+    echo "username ok";
+}
+
+///////////////////////////////////////////////
 ///lenh linux co ban
 //////////////////////////////////////////////
 cd ten thu muc
