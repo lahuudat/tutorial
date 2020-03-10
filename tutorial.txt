@@ -491,7 +491,7 @@ https://regexr.com/3g1v7
 ///////////////////////////////////////////////
 //regx vali khoang trang
 ///////////////////////////////////////////////
-https://stackoverflow.com/questions/206059/php-validation-regex-for-url
+https://stackoverflow.com/questions/3747362/php-regex-validation
 $username = 'lahuudat';
 if (!preg_match(
     '/^(?=[a-z]{2})(?=.{4,26})(?=[^.]*\.?[^.]*$)(?=[^_]*_?[^_]*$)[\w.]+$/iD',
