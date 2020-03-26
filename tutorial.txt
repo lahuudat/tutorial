@@ -1344,3 +1344,16 @@ public function showVideo($video)
 ////////////////////////////////////////
 https://github.com/brozot/Laravel-FCM
 https://www.youtube.com/watch?v=FHJ5GIsP2_I&t=1624s
+
+/////////////////////////////////////////
+//quan he 1 nhieu
+////////////////////////////////////////
+public function reportCategory()
+    {
+        return $this->belongsTo('App\Models\ReportCategory','report_category_id');
+    }
+    
+public function report()
+    {
+        return $this->hasMany('App\Models\Report');
+    }
