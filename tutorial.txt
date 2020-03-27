@@ -1357,3 +1357,9 @@ public function report()
     {
         return $this->hasMany('App\Models\Report');
     }
+
+
+///////////////////////////////////////////
+//x team, remote full time, freelance
+////////////////////////////////////////
+https://stackoverflow.com/jobs/192128/senior-php-developer-remote-x-team
