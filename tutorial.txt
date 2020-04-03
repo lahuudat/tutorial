@@ -317,6 +317,7 @@ CREATE TABLE Employee(
 ///////////////////////////////////////////
 https://laravel-news.com/laravel-5-4-key-too-long-error
 https://github.com/laravel/laravel/blob/master/app/Providers/AppServiceProvider.php
+https://stackoverflow.com/questions/8746207/1071-specified-key-was-too-long-max-key-length-is-1000-bytes
 
 
 //////////////////////////////////////////
@@ -1363,3 +1364,8 @@ public function report()
 //x team, remote full time, freelance
 ////////////////////////////////////////
 https://stackoverflow.com/jobs/192128/senior-php-developer-remote-x-team
+
+/////////////////////////////////////
+//cache route
+////////////////////////////////
+https://stackoverflow.com/questions/37878951/how-to-clear-route-caching-on-server-laravel-5-2-37
