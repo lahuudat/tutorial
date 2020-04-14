@@ -1345,6 +1345,8 @@ public function showVideo($video)
 ////////////////////////////////////////
 https://github.com/brozot/Laravel-FCM
 https://www.youtube.com/watch?v=FHJ5GIsP2_I&t=1624s
+https://firebase-php.readthedocs.io/en/stable/
+https://github.com/kreait/laravel-firebase
 
 /////////////////////////////////////////
 //quan he 1 nhieu
