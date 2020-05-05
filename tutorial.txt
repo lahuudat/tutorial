@@ -1382,3 +1382,4 @@ https://www.tutorialspoint.com/how-to-do-a-count-on-a-mysql-union-query
 // lay ngay cua tuan truoc
 ///////////////////////////////////////
 CURDATE() - INTERVAL 1 WEEK
+https://stackoverflow.com/questions/6089960/mysql-query-to-select-data-from-last-week
