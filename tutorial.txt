@@ -1389,3 +1389,45 @@ https://stackoverflow.com/questions/6089960/mysql-query-to-select-data-from-last
 ///////////////////////////////////////
 php artisan config:clear
 php artisan cache:clear
+
+/////////////////////////////////
+///debug env laravel
+////////////////////////////////
+dd([
+            'APP_NAME:' => env('APP_NAME'),
+            'APP_ENV:' => env('APP_ENV'),
+            'APP_KEY:' => env('APP_KEY'),
+            'APP_DEBUG:' => env('APP_DEBUG'),
+            'APP_URL:' => env('APP_URL'),
+            'LOG_CHANNEL:' => env('LOG_CHANNEL'),
+            'DB_CONNECTION:' => env('DB_CONNECTION'),
+            'DB_HOST:' => env('DB_HOST'),
+            'DB_PORT:' => env('DB_PORT'),
+            'DB_DATABASE:' => env('DB_DATABASE'),
+            'DB_USERNAME:' => env('DB_USERNAME'),
+            'DB_PASSWORD:' => env('DB_PASSWORD'),
+            'BROADCAST_DRIVER:' => env('BROADCAST_DRIVER'),
+            'CACHE_DRIVER:' => env('CACHE_DRIVER'),
+            'QUEUE_CONNECTION:' => env('QUEUE_CONNECTION'),
+            'SESSION_DRIVER:' => env('SESSION_DRIVER'),
+            'SESSION_LIFETIME:' => env('SESSION_LIFETIME'),
+            'REDIS_HOST:' => env('REDIS_HOST'),
+            'REDIS_PASSWORD:' => env('REDIS_PASSWORD'),
+            'REDIS_PORT:' => env('REDIS_PORT'),
+            'REDIS_PREFIX:' => env('REDIS_PREFIX'),
+            'JWT_SECRET:' => env('JWT_SECRET'),
+            'JWT_TTL:' => env('JWT_TTL'),
+            'AWS_ACCESS_KEY_ID:' => env('AWS_ACCESS_KEY_ID'),
+            'AWS_SECRET_ACCESS_KEY:' => env('AWS_SECRET_ACCESS_KEY'),
+            'AWS_DEFAULT_REGION:' => env('AWS_DEFAULT_REGION'),
+            'AWS_BUCKET:' => env('AWS_BUCKET'),
+            'FIREBASE_CREDENTIALS:' => env('FIREBASE_CREDENTIALS'),
+            'FCM_SECRET_KEY:' => env('FCM_SECRET_KEY'),
+            'FCM_SENDER_ID:' => env('FCM_SENDER_ID'),
+            'AWS_SENDER_ID:' => env('AWS_SENDER_ID'),
+            'AWS_SNS_ACCESS_KEY_ID:' => env('AWS_SNS_ACCESS_KEY_ID'),
+            'AWS_SNS_SECRET_ACCESS_KEY:' => env('AWS_SNS_SECRET_ACCESS_KEY'),
+            'AWS_SES_ACCESS_KEY_ID:' => env('AWS_SES_ACCESS_KEY_ID'),
+            'AWS_SES_SECRET_ACCESS_KEY:' => env('AWS_SES_SECRET_ACCESS_KEY'),
+            'AWS_SES_REGION:' => env('AWS_SES_REGION'),
+        ]);
