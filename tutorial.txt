@@ -1431,3 +1431,13 @@ dd([
             'AWS_SES_SECRET_ACCESS_KEY:' => env('AWS_SES_SECRET_ACCESS_KEY'),
             'AWS_SES_REGION:' => env('AWS_SES_REGION'),
         ]);
+	
+////////////////////////////////////////
+// upload file to s3 laravel
+////////////////////////////////////////
+https://medium.com/@chrisblackwell/upload-files-to-aws-s3-using-laravel-1cf0e654c2f3
+
+//////////////////////////////////////
+// send notification topic laravel
+//////////////////////////////////////
+https://firebase-php.readthedocs.io/en/stable/cloud-messaging.html
