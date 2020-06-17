@@ -1441,3 +1441,16 @@ https://medium.com/@chrisblackwell/upload-files-to-aws-s3-using-laravel-1cf0e654
 // send notification topic laravel
 //////////////////////////////////////
 https://firebase-php.readthedocs.io/en/stable/cloud-messaging.html
+
+
+/////////////////////////////////////
+// cache redis laravel
+///////////////////////////////////
+https://redisdesktop.com/
+https://viblo.asia/p/redis-huong-dan-cai-dat-mot-server-redis-3P0lPyJn5ox
+select 1
+SCAN 0 MATCH * COUNT 10000
+MEMORY HELP
+SELECT 1
+MEMORY USAGE yabme_cache:categories
+SELECT 1
