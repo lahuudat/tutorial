@@ -1454,3 +1454,9 @@ MEMORY HELP
 SELECT 1
 MEMORY USAGE yabme_cache:categories
 SELECT 1
+
+
+//////////////////////////////////////////////////////////
+// log to db, save log to db laravel, luu log laravel
+///////////////////////////////////////////////////////
+https://github.com/danielme85/laravel-log-to-db
