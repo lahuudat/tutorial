@@ -1472,3 +1472,8 @@ https://drive.google.com/file/d/1S6kFdugb_sI2LFJ8SR_0-3SUkmr8bqCl/view
 ///////////////////////////////////////////////////////
 https://codepen.io/jannypie/pen/DcHdo
 https://codepen.io/jcoulterdesign/pen/NeOQzX
+
+///////////////////////////////////////////////////////
+//change port react js (doi cong react js)
+/////////////////////////////////////////////////////
+https://scriptverse.academy/tutorials/reactjs-change-port-number.html
