@@ -1493,3 +1493,17 @@ https://drive.google.com/drive/u/1/folders/11Gpez5utxJ1QC02N54Xu1XBddCEU4GoL
 ////////////////////////////////////////////////////////
 composer dump-autoload
 https://stackoverflow.com/questions/39776215/call-to-undefined-function-laravel/39777093
+
+//////////////////////////////////////////////////////////
+//sonarqube sonar scanner
+/////////////////////////////////////////////////////////
+https://opensource.com/article/17/6/set-path-linux
+https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
+
+dat file sonar-project.properties vao thu muc du an
+giai nen file zip, set path o thu muc bin
+
+////////////////////////////////////////////////////////
+//path linux ubuntu
+////////////////////////////////////////////////////////
+https://opensource.com/article/17/6/set-path-linux
