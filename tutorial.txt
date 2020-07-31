@@ -1519,3 +1519,8 @@ https://www.cloudbooklet.com/upgrade-php-version-to-php-7-4-on-ubuntu/
 ////////////////////////////////////////////////////////
 https://laracasts.com/discuss/channels/laravel/could-not-find-driver-error-in-laravel-55
 https://stackoverflow.com/questions/35240414/laravel-5-pdoexception-could-not-find-driver
+
+///////////////////////////////////////////////////////
+//bug enable xmlwriter
+///////////////////////////////////////////////////////
+https://stackoverflow.com/questions/6384979/how-to-enable-xmlwriter-after-php-having-been-compiled
