@@ -1513,3 +1513,9 @@ https://opensource.com/article/17/6/set-path-linux
 ////////////////////////////////////////////////////////
 sudo apt install php7.4
 https://www.cloudbooklet.com/upgrade-php-version-to-php-7-4-on-ubuntu/
+
+////////////////////////////////////////////////////////
+//bug could not find driver laravel
+////////////////////////////////////////////////////////
+https://laracasts.com/discuss/channels/laravel/could-not-find-driver-error-in-laravel-55
+https://stackoverflow.com/questions/35240414/laravel-5-pdoexception-could-not-find-driver
