@@ -1524,3 +1524,9 @@ https://stackoverflow.com/questions/35240414/laravel-5-pdoexception-could-not-fi
 //bug enable xmlwriter
 ///////////////////////////////////////////////////////
 https://stackoverflow.com/questions/6384979/how-to-enable-xmlwriter-after-php-having-been-compiled
+
+
+///////////////////////////////////////////////////////
+//bug laravel/framework v5.2.9 requires ext-mbstring
+///////////////////////////////////////////////////////
+https://stackoverflow.com/questions/36979019/getting-error-while-updating-composer
