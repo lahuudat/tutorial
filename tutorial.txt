@@ -1532,7 +1532,12 @@ https://stackoverflow.com/questions/6384979/how-to-enable-xmlwriter-after-php-ha
 https://stackoverflow.com/questions/36979019/getting-error-while-updating-composer
 
 ///////////////////////////////////////////////////////
-//install php extension
+//install php redis extension
 //////////////////////////////////////////////////////
 sudo apt-get install php-redis
 https://tecadmin.net/install-redis-ubuntu/
+
+//////////////////////////////////////////////////////
+// docs api swagger laravel
+//////////////////////////////////////////////////////
+https://github.com/mpociot/laravel-apidoc-generator
