@@ -1547,3 +1547,9 @@ https://tecadmin.net/install-redis-ubuntu/
 // docs api swagger laravel
 //////////////////////////////////////////////////////
 https://github.com/mpociot/laravel-apidoc-generator
+
+//////////////////////////////////////////////////////
+//jwt multi user, jwt two model
+//////////////////////////////////////////////////////
+https://medium.com/@JinoAntony/multi-user-api-authentication-using-laravel-jwt-8ae572b0c4cf
+https://medium.com/@akgarg007/laravel-6-jwt-multi-model-authentication-d5b416c4cdb4
