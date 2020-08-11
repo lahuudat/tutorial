@@ -1553,3 +1553,4 @@ https://github.com/mpociot/laravel-apidoc-generator
 //////////////////////////////////////////////////////
 https://medium.com/@JinoAntony/multi-user-api-authentication-using-laravel-jwt-8ae572b0c4cf
 https://medium.com/@akgarg007/laravel-6-jwt-multi-model-authentication-d5b416c4cdb4
+https://medium.com/@OlabodeAbesin/multi-user-authentication-with-laravel-and-jwt-dcbe0e4b4fbf
