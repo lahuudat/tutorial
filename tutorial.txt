@@ -1559,3 +1559,8 @@ https://medium.com/@OlabodeAbesin/multi-user-authentication-with-laravel-and-jwt
 //mua acc netfix, youtube,...
 /////////////////////////////////////////////////////
 https://voz.vn/t/acc-apps-chia-se-tai-khoan-netflix-spotify-elsaspeak-grammarly-douglingo-memrise-office-win-canva-freepik-youtubepremium-apple-music-chi-tu-60k.97483/
+
+///////////////////////////////////////////////////////
+//api download file
+//////////////////////////////////////////////////////
+https://stackoverflow.com/questions/38791635/download-a-file-in-laravel-using-a-url-to-external-resource
