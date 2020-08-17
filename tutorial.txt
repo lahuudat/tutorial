@@ -1564,3 +1564,8 @@ https://voz.vn/t/acc-apps-chia-se-tai-khoan-netflix-spotify-elsaspeak-grammarly-
 //api download file
 //////////////////////////////////////////////////////
 https://stackoverflow.com/questions/38791635/download-a-file-in-laravel-using-a-url-to-external-resource
+
+///////////////////////////////////////////////////
+//luu file trong laravel
+//////////////////////////////////////////////////
+https://viblo.asia/p/tim-hieu-ve-file-storage-cua-laravel-gGJ59jBpKX2
