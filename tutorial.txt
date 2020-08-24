@@ -1569,3 +1569,10 @@ https://stackoverflow.com/questions/38791635/download-a-file-in-laravel-using-a-
 //luu file trong laravel
 //////////////////////////////////////////////////
 https://viblo.asia/p/tim-hieu-ve-file-storage-cua-laravel-gGJ59jBpKX2
+
+/////////////////////////////////////////////////
+// loi error phpoffice/phpspreadsheet, laravel excel
+//////////////////////////////////////////////////
+sudo apt-get install php-gd
+sudo apt-get install php-zip
+composer require maatwebsite/excel
