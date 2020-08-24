@@ -1577,3 +1577,4 @@ sudo apt-get install php-gd
 sudo apt-get install php-zip
 composer require maatwebsite/excel
 https://www.youtube.com/watch?v=VUet2wq22-o
+https://docs.laravel-excel.com/3.1/exports/
