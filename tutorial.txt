@@ -1576,3 +1576,4 @@ https://viblo.asia/p/tim-hieu-ve-file-storage-cua-laravel-gGJ59jBpKX2
 sudo apt-get install php-gd
 sudo apt-get install php-zip
 composer require maatwebsite/excel
+https://www.youtube.com/watch?v=VUet2wq22-o
