@@ -1578,3 +1578,11 @@ sudo apt-get install php-zip
 composer require maatwebsite/excel
 https://www.youtube.com/watch?v=VUet2wq22-o
 https://docs.laravel-excel.com/3.1/exports/
+
+/////////////////////////////////////////////////
+//free web hosting
+////////////////////////////////////////////////
+https://www.awardspace.com/
+email: huudat055@gmail.com
+pass: huu...994
+pass db: 1234567890qwertyuiop
