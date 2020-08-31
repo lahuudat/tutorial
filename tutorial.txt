@@ -1586,3 +1586,8 @@ https://www.awardspace.com/
 email: huudat055@gmail.com
 pass: huu...994
 pass db: 1234567890qwertyuiop
+
+////////////////////////////////////////////
+//pass var to class php
+////////////////////////////////////////////
+https://stackoverflow.com/questions/484537/in-php-when-initializing-a-class-how-would-one-pass-a-variable-to-that-class-to
