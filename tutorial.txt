@@ -1101,6 +1101,7 @@ composer update
 https://www.youtube.com/watch?v=5kmr55zUcQM
 https://jwt-auth.readthedocs.io/en/develop/
 https://viblo.asia/p/api-authentication-su-dung-jwt-trong-laravel-1VgZvxRY5Aw
+https://viblo.asia/p/tim-hieu-ve-json-web-token-jwt-7rVRqp73v4bP#giai-thich-them-ve-3-thanh-phan-cua-jwt-1
 
 //////////////////////////////////////////////
 //test connection database laravel
