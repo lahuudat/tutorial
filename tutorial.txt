@@ -1553,6 +1553,9 @@ https://github.com/mpociot/laravel-apidoc-generator
 //////////////////////////////////////////////////////
 //jwt multi user, jwt two model
 //////////////////////////////////////////////////////
+https://stackoverflow.com/questions/49212086/lravel-5-4-jwt-api-with-multi-auth-on-two-tables-one-works-the-other-not
+https://www.laravelcode.com/post/how-to-set-multi-authentication-in-jwt
+
 https://medium.com/@JinoAntony/multi-user-api-authentication-using-laravel-jwt-8ae572b0c4cf
 https://medium.com/@akgarg007/laravel-6-jwt-multi-model-authentication-d5b416c4cdb4
 https://medium.com/@OlabodeAbesin/multi-user-authentication-with-laravel-and-jwt-dcbe0e4b4fbf
