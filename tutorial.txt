@@ -1621,3 +1621,8 @@ chỉ xóa project, không xóa quyền sở hữu tổ chức
 //////////////////////////////////
 datlh@bap.jp
 huu..7196
+
+///////////////////////////////////
+//bug unittest php laravel 
+//////////////////////////////////
+https://stackoverflow.com/questions/59074162/error-call-to-undefined-method-tests-unit-sometestassertstatus
