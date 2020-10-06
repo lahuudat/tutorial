@@ -1626,3 +1626,9 @@ huu..7196
 //bug unittest php laravel 
 //////////////////////////////////
 https://stackoverflow.com/questions/59074162/error-call-to-undefined-method-tests-unit-sometestassertstatus
+
+////////////////////////////////////
+//show structure table
+////////////////////////////////////
+SHOW CREATE TABLE users;
+https://www.quora.com/How-do-you-view-a-table-in-a-structure-in-SQL
