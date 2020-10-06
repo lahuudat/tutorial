@@ -1632,3 +1632,12 @@ https://stackoverflow.com/questions/59074162/error-call-to-undefined-method-test
 ////////////////////////////////////
 SHOW CREATE TABLE users;
 https://www.quora.com/How-do-you-view-a-table-in-a-structure-in-SQL
+
+//////////////////////////////////////
+//add condition to withCount Laravel
+//////////////////////////////////////
+$archive = $this::withCount(['streamings' => function ($query) {
+                $query->whereNotNull('finished_at');
+            }])->where('users.id', 1)->first();
+	    
+https://laravel.io/forum/withcount-with-conditions-in-relation-properties
