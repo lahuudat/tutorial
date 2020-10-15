@@ -1641,3 +1641,23 @@ $archive = $this::withCount(['streamings' => function ($query) {
             }])->where('users.id', 1)->first();
 	    
 https://laravel.io/forum/withcount-with-conditions-in-relation-properties
+
+////////////////////////////////////
+//git by  minh
+////////////////////////////////////
+git status
+ 1947  clear
+ 1948  git remote add binh https://gitpub.rakuten-it.com/scm/~binhvnt_bap.jp/rlive-server.git
+ 1949  git remote -v
+ 1950  git status
+ 1951  git stash --include-untracked
+ 1952  git status
+ 1953  git fetch binh
+ 1954  git branch
+ 1955  git checkout feature/RLRP-176-My-Profile-Unitest
+ 1956  git status
+ 1957  clear
+ 1958  git stash apply
+ 1959  git status
+ 1960  git history
+ 1961  history
