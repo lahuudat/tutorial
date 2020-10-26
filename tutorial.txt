@@ -1661,3 +1661,8 @@ git status
  1959  git status
  1960  git history
  1961  history
+ 
+ ///////////////////////////////////////
+ //unittest structure laravel
+ ///////////////////////////////////////
+ https://laracasts.com/discuss/channels/testing/testing-json-apis-specifically-assertjsonstructure
