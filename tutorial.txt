@@ -1666,3 +1666,8 @@ git status
  //unittest structure laravel
  ///////////////////////////////////////
  https://laracasts.com/discuss/channels/testing/testing-json-apis-specifically-assertjsonstructure
+
+////////////////////////////////////////
+//set attribute model laravel
+////////////////////////////////////////
+$user->targetUser->setAttribute('is_blocked', 111);
