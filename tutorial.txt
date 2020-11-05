@@ -1676,3 +1676,12 @@ $user->targetUser->setAttribute('is_blocked', 111);
 //junstyle.php-cs-fixer csfixer
 ///////////////////////////////////////
 https://medium.com/@armorasha/php-cs-fixer-how-to-install-vs-code-2020-windows-10-75b6d5ed03ce
+
+///////////////////////////////////////
+//change element model, collection laravel
+////////////////////////////////////////////
+ $wallet = Wallet::factory()->create(['user_id' => $user->id]);
+    $wallet->fill(['medals_count' => 10]);
+    $wallet->save();
+    dd($wallet);
+ atribute setAtribute
