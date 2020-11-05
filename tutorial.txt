@@ -1685,3 +1685,8 @@ https://medium.com/@armorasha/php-cs-fixer-how-to-install-vs-code-2020-windows-1
     $wallet->save();
     dd($wallet);
  atribute setAtribute
+
+/////////////////////////////////////////////
+//add new element to collection model laravel, change element
+/////////////////////////////////////////////
+https://stackoverflow.com/questions/47364421/adding-new-property-to-eloquent-collection
