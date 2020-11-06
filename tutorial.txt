@@ -1690,3 +1690,21 @@ https://medium.com/@armorasha/php-cs-fixer-how-to-install-vs-code-2020-windows-1
 //add new element to collection model laravel, change element
 /////////////////////////////////////////////
 https://stackoverflow.com/questions/47364421/adding-new-property-to-eloquent-collection
+
+////////////////////////////////////////////////////
+// unittest laravel
+///////////////////////////////////////////////////
+it('returns medal_count equal to medal_count in Wallets table and delete_at is null', function () {
+$user = User::factory()->create();
+$wallet= $user->wallet()->first();
+$wallet->fill(['medals_count' => 1]);
+$wallet->save();
+
+$response = $this
+->actingAs($user)
+->getJson('/api/me')
+->json('data')
+;
+
+$this->assertEquals(1, $response['medal_count']);
+});
