@@ -1708,3 +1708,8 @@ $response = $this
 
 $this->assertEquals(1, $response['medal_count']);
 });
+
+///////////////////////////////////////////////////
+//pass variable vao function laravel 
+//////////////////////////////////////////////////
+https://stackoverflow.com/questions/29548073/laravel-advanced-wheres-how-to-pass-variable-into-function
