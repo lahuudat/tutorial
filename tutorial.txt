@@ -1713,3 +1713,9 @@ $this->assertEquals(1, $response['medal_count']);
 //pass variable vao function laravel 
 //////////////////////////////////////////////////
 https://stackoverflow.com/questions/29548073/laravel-advanced-wheres-how-to-pass-variable-into-function
+
+/////////////////////////////////////
+//unittest laravel, test json in db
+/////////////////////////////////////
+$this->assertEquals($store->settings, Store::find($store->id)->settings);
+https://stackoverflow.com/questions/50203054/laravel-5-6-how-to-test-json-jsonb-columns
