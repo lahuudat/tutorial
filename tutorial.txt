@@ -1725,3 +1725,8 @@ https://stackoverflow.com/questions/50203054/laravel-5-6-how-to-test-json-jsonb-
 /////////////////////////////////////
 https://developpaper.com/laravel-admin-error-disk-admin-not-configured/
 https://github.com/z-song/laravel-admin/issues/1327
+
+////////////////////////////////////
+//free hosting laravel
+//////////////////////////////////
+https://www.laravel-deployer.com/free-hosting-for-laravel.php
