@@ -1730,3 +1730,9 @@ https://github.com/z-song/laravel-admin/issues/1327
 //free hosting laravel
 //////////////////////////////////
 https://www.laravel-deployer.com/free-hosting-for-laravel.php
+
+///////////////////////////////////
+//upload file in PATCH PUT
+//////////////////////////////////
+truyen them _method PATCH để kiểu POST
+https://github.com/laravel/framework/issues/13457
