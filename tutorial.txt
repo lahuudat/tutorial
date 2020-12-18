@@ -1749,3 +1749,12 @@ $grid->column('full_name')->display(function () {
     return $this->first_name . ' ' . $this->last_name;
 });
 https://laravel-admin.org/docs/en/model-grid-column-display
+
+////////////////////////////////////
+//json trong sql, JSON_EXTRACT
+////////////////////////////////////
+$filter->where(function ($query) {
+	$query->whereRaw('JSON_EXTRACT(contents, "$.user_id") like'."'".'%"'.$this->input.'"%'."'");
+}, __(CommonConst::USER_ID_TEXT));
+$query->whereRaw('JSON_EXTRACT(contents, "$.quantity") ='.'"'.$this->input.'"');
+https://database.guide/json_extract-return-data-from-a-json-document-in-mysql/
