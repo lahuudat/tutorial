@@ -1758,3 +1758,8 @@ $filter->where(function ($query) {
 }, __(CommonConst::USER_ID_TEXT));
 $query->whereRaw('JSON_EXTRACT(contents, "$.quantity") ='.'"'.$this->input.'"');
 https://database.guide/json_extract-return-data-from-a-json-document-in-mysql/
+
+//////////////////////////////////////
+//bug clone bitbucket login gmail
+/////////////////////////////////////
+https://stackoverflow.com/questions/35008713/bitbucket-git-credentials-if-signed-up-with-google
