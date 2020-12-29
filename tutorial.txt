@@ -1768,3 +1768,8 @@ https://stackoverflow.com/questions/35008713/bitbucket-git-credentials-if-signed
 //doi version php
 /////////////////////////////////////
 https://www.itsolutionstuff.com/post/how-to-downgrade-php-74-to-73-ubuntuexample.html
+
+//////////////////////////////////////
+//bug could not find driver (SQL: select * from information_schema.tables where table_schema = public and table_name = migrations and table_type = 'BASE TABLE')
+//////////////////////////////////////
+sudo apt-get install php7.2-pgsql
