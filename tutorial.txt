@@ -1763,3 +1763,8 @@ https://database.guide/json_extract-return-data-from-a-json-document-in-mysql/
 //bug clone bitbucket login gmail
 /////////////////////////////////////
 https://stackoverflow.com/questions/35008713/bitbucket-git-credentials-if-signed-up-with-google
+
+/////////////////////////////////////
+//doi version php
+/////////////////////////////////////
+https://www.itsolutionstuff.com/post/how-to-downgrade-php-74-to-73-ubuntuexample.html
