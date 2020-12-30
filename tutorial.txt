@@ -1773,3 +1773,8 @@ https://www.itsolutionstuff.com/post/how-to-downgrade-php-74-to-73-ubuntuexample
 //bug could not find driver (SQL: select * from information_schema.tables where table_schema = public and table_name = migrations and table_type = 'BASE TABLE')
 //////////////////////////////////////
 sudo apt-get install php7.2-pgsql
+
+/////////////////////////////////////
+//bug swagger permid ...
+////////////////////////////////////
+https://stackoverflow.com/questions/51041196/there-is-no-existing-directory-at-storage-logs-and-its-not-buildable-permissio
