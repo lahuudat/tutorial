@@ -1789,3 +1789,8 @@ php artisan telescope:clear
 //required_if laravel
 /////////////////////////////
 https://www.youtube.com/watch?v=6-VPCW_8l6I&t=140s
+
+//////////////////////////////////
+//PostgreSQL
+//////////////////////////////////
+https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html
