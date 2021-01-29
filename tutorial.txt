@@ -1799,3 +1799,16 @@ https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.h
 //bug laradock address already in use
 ////////////////////////////////
 https://stackoverflow.com/questions/37896369/error-starting-userland-proxy-listen-tcp0-0-0-03306-bind-address-already-in
+
+/////////////////////////////////
+//huong dan laradock
+/////////////////////////////////
+dung lenh composer tao 1 project moi
+mo thu muc du an, go lenh git clone laradock
+mo laradock copy, doi ten env
+chay docker compose ...
+sua env cua laravel project
+https://laradock.io/
+login phpmyadmin
+https://laradock.io/documentation/#use-phpmyadmin
+https://github.com/laradock/laradock/issues/754
