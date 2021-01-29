@@ -1812,3 +1812,13 @@ https://laradock.io/
 login phpmyadmin
 https://laradock.io/documentation/#use-phpmyadmin
 https://github.com/laradock/laradock/issues/754
+
+//////////////////////////////////////////
+//connect laravel mysql docker laradock
+///////////////////////////////////////////
+docker ps
+docker inspect <container_id_mysql>
+lay IPAddress nhap vao DB_HOST trong env
+DB_USERNAME=root
+DB_PASSWORD=root
+https://github.com/laradock/laradock/issues/869
