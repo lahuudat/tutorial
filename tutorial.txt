@@ -1794,3 +1794,8 @@ https://www.youtube.com/watch?v=6-VPCW_8l6I&t=140s
 //PostgreSQL
 //////////////////////////////////
 https://tableplus.com/blog/2018/10/how-to-start-stop-restart-postgresql-server.html
+
+//////////////////////////////////
+//bug laradock address already in use
+////////////////////////////////
+https://stackoverflow.com/questions/37896369/error-starting-userland-proxy-listen-tcp0-0-0-03306-bind-address-already-in
