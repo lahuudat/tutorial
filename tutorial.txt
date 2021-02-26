@@ -1822,3 +1822,17 @@ lay IPAddress nhap vao DB_HOST trong env
 DB_USERNAME=root
 DB_PASSWORD=root
 https://github.com/laradock/laradock/issues/869
+
+//////////////////////////////////////////
+//debug sql laravel
+//////////////////////////////////////////
+\DB::listen(function ($query) {
+\Log::info(
+$query->sql,
+$query->bindings,
+$query->time
+);
+});
+
+app/Providers/AppServiceProvider.php
+neu telescope kho xem sql thi e no code tren vao file ni xem cho de
