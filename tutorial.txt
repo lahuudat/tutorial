@@ -1836,3 +1836,21 @@ $query->time
 
 app/Providers/AppServiceProvider.php
 neu telescope kho xem sql thi e no code tren vao file ni xem cho de
+
+
+////////////////////////////////////////////
+//theme shoppingcart, thuong mai dien tu
+///////////////////////////////////////////
+https://bizfly.vn/techblog/theme-wordpress-ban-hang.html
+https://blog.hostvn.net/wordpress/top-18-theme-ban-hang-wordpress-mien-phi-tot-nhat-2019.html
+https://demo.themefreesia.com/shoppingcart/shop/
+import data woocommerce:
+https://docs.woocommerce.com/document/importing-woocommerce-sample-data/
+https://themefreesia.com/theme-freesia-demo-import/
+https://www.youtube.com/watch?v=Lc2FKHXvKXw
+
+tai theme ve cai dat nhu binh thuong
+cai dat plugin co san
+tai file plugin import data ve
+import plugin
+import data
