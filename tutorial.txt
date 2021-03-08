@@ -1854,3 +1854,8 @@ cai dat plugin co san
 tai file plugin import data ve
 import plugin
 import data
+
+//////////////////////////////////////////////
+//duplicate record laravel
+//////////////////////////////////////////////
+https://stackoverflow.com/questions/34257741/laravel-copy-record-and-duplicate-with-new-values/34257914
