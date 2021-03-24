@@ -1859,3 +1859,8 @@ import data
 //duplicate record laravel
 //////////////////////////////////////////////
 https://stackoverflow.com/questions/34257741/laravel-copy-record-and-duplicate-with-new-values/34257914
+
+/////////////////////////////////////////////
+//raw laravel, chen sql
+/////////////////////////////////////////////
+https://fideloper.com/laravel-raw-queries
