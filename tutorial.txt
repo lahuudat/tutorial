@@ -1869,3 +1869,8 @@ https://fideloper.com/laravel-raw-queries
 //import data wordpress
 //////////////////////////////////////////
 https://www.designlabthemes.com/import-demo-content-wordpress/
+
+////////////////////////////////////////////
+//migration tung file
+////////////////////////////////////////////
+https://stackoverflow.com/questions/47151886/how-can-i-run-specific-migration-in-laravel
