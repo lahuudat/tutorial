@@ -1874,3 +1874,8 @@ https://www.designlabthemes.com/import-demo-content-wordpress/
 //migration tung file
 ////////////////////////////////////////////
 https://stackoverflow.com/questions/47151886/how-can-i-run-specific-migration-in-laravel
+
+////////////////////////////////////////////
+//git submodule
+////////////////////////////////////////////
+https://kipalog.com/posts/Lam-viec-voi-git-submodule
