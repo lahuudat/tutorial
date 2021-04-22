@@ -1879,3 +1879,8 @@ https://stackoverflow.com/questions/47151886/how-can-i-run-specific-migration-in
 //git submodule
 ////////////////////////////////////////////
 https://kipalog.com/posts/Lam-viec-voi-git-submodule
+
+///////////////////////////////////////////
+//migration another dir/folder
+////////////////////////////////////////////
+https://stackoverflow.com/questions/21641606/laravel-running-migrations-on-app-database-migrations-folder-recursively
