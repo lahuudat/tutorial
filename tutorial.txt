@@ -1894,3 +1894,8 @@ https://sites.google.com/site/tranvanthinh1976/linux/phan-quyen-truy-cap-file-ba
 //Please provide a valid cache path
 //////////////////////////////////////////
 https://stackoverflow.com/questions/38483837/please-provide-a-valid-cache-path-error-in-laravel
+
+//////////////////////////////////////////
+// fix medium
+//////////////////////////////////////////
+https://tinhte.vn/thread/medium-hien-tai-khong-vao-duoc-nua.3230118/
