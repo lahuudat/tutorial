@@ -1889,3 +1889,8 @@ https://stackoverflow.com/questions/21641606/laravel-running-migrations-on-app-d
 //chmod huong dan
 ///////////////////////////////////////////
 https://sites.google.com/site/tranvanthinh1976/linux/phan-quyen-truy-cap-file-bang-lenh-chmod?tmpl=%2Fsystem%2Fapp%2Ftemplates%2Fprint%2F&showPrintDialog=1
+
+///////////////////////////////////////////
+//Please provide a valid cache path
+//////////////////////////////////////////
+https://stackoverflow.com/questions/38483837/please-provide-a-valid-cache-path-error-in-laravel
