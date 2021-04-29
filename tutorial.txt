@@ -1899,3 +1899,8 @@ https://stackoverflow.com/questions/38483837/please-provide-a-valid-cache-path-e
 // fix medium
 //////////////////////////////////////////
 https://tinhte.vn/thread/medium-hien-tai-khong-vao-duoc-nua.3230118/
+
+///////////////////////////////////////////
+//datatable add link
+//////////////////////////////////////////
+https://www.datatables.net/forums/discussion/25111/hyperlink-in-td
