@@ -1905,3 +1905,9 @@ https://tinhte.vn/thread/medium-hien-tai-khong-vao-duoc-nua.3230118/
 //datatable add link
 //////////////////////////////////////////
 https://www.datatables.net/forums/discussion/25111/hyperlink-in-td
+
+////////////////////////////////////////////
+//with in with laravel
+////////////////////////////////////////////
+https://stackoverflow.com/questions/37576620/laravel-eloquent-with-with
+https://laravel.com/docs/5.2/eloquent-relationships#eager-loading
