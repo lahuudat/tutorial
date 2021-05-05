@@ -476,6 +476,7 @@ https://toidicode.com/xu-ly-ngay-thang-trong-php-73.html
 https://www.php.net/manual/en/function.date.php
 https://stackoverflow.com/questions/13194322/php-regex-to-check-date-is-in-yyyy-mm-dd-format
 https://stackoverflow.com/questions/10306999/php-convert-date-format-dd-mm-yyyy-yyyy-mm-dd
+https://stackoverflow.com/questions/1535246/format-date-from-database
 
 /////////////////////////////////////////////
 //regx validate email
