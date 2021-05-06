@@ -1911,3 +1911,8 @@ https://www.datatables.net/forums/discussion/25111/hyperlink-in-td
 ////////////////////////////////////////////
 https://stackoverflow.com/questions/37576620/laravel-eloquent-with-with
 https://laravel.com/docs/5.2/eloquent-relationships#eager-loading
+
+///////////////////////////////////////////
+//star rank
+///////////////////////////////////////////
+https://stackoverflow.com/questions/51730550/half-font-awesome-heart-rating-css
