@@ -1916,3 +1916,9 @@ https://laravel.com/docs/5.2/eloquent-relationships#eager-loading
 //star rank
 ///////////////////////////////////////////
 https://stackoverflow.com/questions/51730550/half-font-awesome-heart-rating-css
+
+///////////////////////////////////////////
+//Permission denied laravel
+/////////////////////////////////////////////
+sudo chmod -R 777 bootstrap/cache
+sudo chmod -R 777 /home/bapvn/Desktop/projects/howapp/storage/app
