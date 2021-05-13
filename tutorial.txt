@@ -1924,3 +1924,103 @@ https://stackoverflow.com/questions/51730550/half-font-awesome-heart-rating-css
 /////////////////////////////////////////////
 sudo chmod -R 777 bootstrap/cache
 sudo chmod -R 777 /home/bapvn/Desktop/projects/howapp/storage/app
+
+/////////////////////////////////////////////
+///test push notification firebase php
+/////////////////////////////////////////////
+view.php
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-messaging.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+        <!-- <link rel="manifest" href="manifest.json"> -->
+
+<h1>hello</h1>
+
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyDh9a8mTPCig9Hf7KhBTJ9thyxhyyyotpI",
+        authDomain: "nouhow--test.firebaseapp.com",
+        databaseURL: "https://nouhow--test-default-rtdb.firebaseio.com",
+        projectId: "nouhow--test",
+        storageBucket: "nouhow--test.appspot.com",
+        messagingSenderId: "986697629415",
+        appId: "1:986697629415:web:8e6625c62ae5083d00ec42",
+        measurementId: "G-01QM6THRGL"
+  };
+
+  
+firebase.initializeApp (firebaseConfig);
+
+const messaging = firebase.messaging();
+
+messaging
+  .requestPermission()
+  .then(function () {
+    console.log("Notification permission granted.");
+    return messaging.getToken()
+
+  }).then(function(token) {
+      console.log(token);
+    }).catch(function(err) {
+        console.log("Unable to get permission to notify", err);
+    });
+
+
+messaging.onMessage((payload) => {
+    console.log(payload);
+})
+</script>
+
+postman:
+curl --location --request POST 'https://fcm.googleapis.com/fcm/send' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: key=AAAA5bvC_uc:APA91bFXMp1_jB8d9RKQCw8KJ7X4SoRwj7pk4oyRYEN15BSXM49LbxuwRYxxDuLKsQakpwFrayVrE8Da63jT60jeVvuzKMfiCYpd0DOdKD7C3adJuU9ADOXL3HMef531cYmLn_xBHgyv' \
+--data-raw '{
+    "to" : "cWdWVuOStDiOj2ZLyTFOHI:APA91bFtEXOCSuyXYILk64VJESC2O7JdwcG3pmT5YdGc0RiiFaOYbHKy5PL0mQq2wI8jiUW1cej1RZg21icpMhHerqcpFrn-GINtXDXh1zTU9bWAvnu_g1s0wvad4NEET4ZN3tbYSyVP"
+    , 
+
+    "notification": {
+    "body": "Firebase Cloud Message"
+  }
+
+  }'
+  
+  
+  <?php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'https://fcm.googleapis.com/fcm/send',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'POST',
+  CURLOPT_POSTFIELDS =>'{
+    "to" : "cWdWVuOStDiOj2ZLyTFOHI:APA91bFtEXOCSuyXYILk64VJESC2O7JdwcG3pmT5YdGc0RiiFaOYbHKy5PL0mQq2wI8jiUW1cej1RZg21icpMhHerqcpFrn-GINtXDXh1zTU9bWAvnu_g1s0wvad4NEET4ZN3tbYSyVP"
+    , 
+
+    "notification": {
+    "body": "Firebase Cloud Message"
+  }
+
+  }',
+  CURLOPT_HTTPHEADER => array(
+    'Content-Type: application/json',
+    'Authorization: key=AAAA5bvC_uc:APA91bFXMp1_jB8d9RKQCw8KJ7X4SoRwj7pk4oyRYEN15BSXM49LbxuwRYxxDuLKsQakpwFrayVrE8Da63jT60jeVvuzKMfiCYpd0DOdKD7C3adJuU9ADOXL3HMef531cYmLn_xBHgyv'
+  ),
+));
+
+$response = curl_exec($curl);
+
+curl_close($curl);
+echo $response;
