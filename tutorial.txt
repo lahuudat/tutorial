@@ -2024,3 +2024,29 @@ $response = curl_exec($curl);
 
 curl_close($curl);
 echo $response;
+
+////////////////////////////////////////////////
+////jwt laravel huong dan
+/////////////////////////////////////////////////
+$credentials = request(['name', 'password']);
+if (! $token = auth()->attempt($credentials)) {
+    return response()->json(['error' => 'Unauthorized'], 401);
+}
+return $this->respondWithToken($token);
+
+---------------------------------------
+
+$user=User::where('email','=','ladat66@gmail.com')->first();
+if (!$userToken=JWTAuth::fromUser($user)) {
+	    return response()->json(['error' => 'invalid_credentials'], 401);
+	}
+return response()->json(compact('userToken'));
+
+-----------------------------------------
+
+get user dang dang nhap
+return response()->json(auth()->user());
+
+https://viblo.asia/p/huong-dan-su-dung-jwt-token-voi-laravel-p2-jOxGdqBvRdm
+https://stackoverflow.com/questions/33028630/authentication-with-jwt-laravel-5-without-password
+https://github.com/tymondesigns/jwt-auth/issues/1636
