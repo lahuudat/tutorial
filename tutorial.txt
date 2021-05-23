@@ -2050,3 +2050,8 @@ return response()->json(auth()->user());
 https://viblo.asia/p/huong-dan-su-dung-jwt-token-voi-laravel-p2-jOxGdqBvRdm
 https://stackoverflow.com/questions/33028630/authentication-with-jwt-laravel-5-without-password
 https://github.com/tymondesigns/jwt-auth/issues/1636
+
+/////////////////////////////////
+//active win 10
+////////////////////////////////
+https://blogkienthuc.net/active-win-10
