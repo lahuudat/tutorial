@@ -2055,3 +2055,12 @@ https://github.com/tymondesigns/jwt-auth/issues/1636
 //active win 10
 ////////////////////////////////
 https://blogkienthuc.net/active-win-10
+
+//////////////////////////////
+//bao mat trong laravel
+//////////////////////////////
+https://buihuycuong.medium.com/c%C3%A1c-l%E1%BB%97i-b%E1%BA%A3o-m%E1%BA%ADt-trong-laravel-v%C3%A0-c%C3%A1ch-ph%C3%B2ng-ch%E1%BB%91ng-5eac12a088bc
+https://laravel.com/docs/8.x/csrf
+https://www.youtube.com/watch?v=aeWEccbXq8Q
+https://www.w3schools.com/sql/sql_injection.asp
+https://viblo.asia/p/sql-injection-va-cach-phong-chong-OeVKB410lkW
