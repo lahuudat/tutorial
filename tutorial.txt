@@ -2070,3 +2070,19 @@ https://laravel.com/docs/8.x/csrf
 https://www.youtube.com/watch?v=aeWEccbXq8Q
 https://www.w3schools.com/sql/sql_injection.asp
 https://viblo.asia/p/sql-injection-va-cach-phong-chong-OeVKB410lkW
+
+////////////////////////////////
+//relationship laravel trick
+////////////////////////////////
+model
+job.php
+Job extends Model
+
+    public function freelancer_applied()
+    {
+        return $this->hasMany('\App\Models\FreelancerJob', 'job_id', 'id')->whereIn('freelancer_jobs.status', [FREELANCER_JOB_STATUS_APPROVED, FREELANCER_JOB_STATUS_SUCCESS]);
+    }
+    
+controller 
+AdminJobController extends Controller
+$jobs = Job::with(['farmer', 'category_job', 'category_crop', 'zip_code','freelancer_job'])->withCount('freelancer_job')->withCount('freelancer_applied')->get(); 
