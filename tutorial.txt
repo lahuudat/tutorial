@@ -2086,3 +2086,12 @@ Job extends Model
 controller 
 AdminJobController extends Controller
 $jobs = Job::with(['farmer', 'category_job', 'category_crop', 'zip_code','freelancer_job'])->withCount('freelancer_job')->withCount('freelancer_applied')->get(); 
+
+
+////////////////////////////////////
+//can le giua css
+////////////////////////////////////
+.justify-content-center {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
