@@ -2095,3 +2095,8 @@ $jobs = Job::with(['farmer', 'category_job', 'category_crop', 'zip_code','freela
     -ms-flex-pack: center!important;
     justify-content: center!important;
 }
+
+///////////////////////////////////
+//bugs docker 
+//////////////////////////////////
+https://github.com/docker/buildx/issues/476
