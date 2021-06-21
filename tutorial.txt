@@ -2100,3 +2100,28 @@ $jobs = Job::with(['farmer', 'category_job', 'category_crop', 'zip_code','freela
 //bugs docker 
 //////////////////////////////////
 https://github.com/docker/buildx/issues/476
+
+//////////////////////////////////
+//custom oeder by datatable laravel server side ajax
+//////////////////////////////////////
+return Datatables::of(Faq::query())
+        // ->orderColumn('sort', '-sort desc')
+        // ->orderColumn('sort', '-sort $1')
+        // ->orderColumn('order', function ($query) {
+        //     $query->orderBy('id', 'desc');
+        // })
+        ->order(function ($query) {
+            if (request()->draw == 1) {
+                $query->orderBy('sort', 'asc');
+            }
+            if (request()->order[0]['dir'] == 'asc') {
+                $query->orderBy('id', 'asc');
+            }
+            if (request()->order[0]['dir'] == 'desc') {
+                $query->orderBy('id', 'desc');
+            }
+        })
+        ->make();
+	
+https://yajrabox.com/docs/laravel-datatables/master/manual-order
+https://datatables.yajrabox.com/eloquent/order-column
