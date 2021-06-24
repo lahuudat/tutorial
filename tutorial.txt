@@ -2125,3 +2125,9 @@ return Datatables::of(Faq::query())
 	
 https://yajrabox.com/docs/laravel-datatables/master/manual-order
 https://datatables.yajrabox.com/eloquent/order-column
+
+////////////////////////////////////////////////////
+/// laravel ck editor
+///////////////////////////////////////////////////
+https://stackoverflow.com/questions/45562387/how-to-get-ckeditor-textarea-value-in-laravel
+https://ckeditor.com/docs/ckeditor5/latest/builds/guides/quick-start.html
