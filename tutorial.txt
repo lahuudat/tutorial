@@ -2134,3 +2134,8 @@ https://ckeditor.com/docs/ckeditor5/latest/builds/guides/quick-start.html
 https://stackoverflow.com/questions/45562387/how-to-get-ckeditor-textarea-value-in-laravel
 https://www.youtube.com/watch?v=hufhhf2MSHU
 https://www.youtube.com/watch?v=pGH3GXBCShI
+
+/////////////////////////////////////////////
+//validate min bootstrap input type number
+////////////////////////////////////////////
+https://stackoverflow.com/questions/42011913/how-to-show-custom-validation-message-for-number-input-type
