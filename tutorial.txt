@@ -2139,3 +2139,65 @@ https://www.youtube.com/watch?v=pGH3GXBCShI
 //validate min bootstrap input type number
 ////////////////////////////////////////////
 https://stackoverflow.com/questions/42011913/how-to-show-custom-validation-message-for-number-input-type
+
+////////////////////////////////////////////
+//docker php nginx mysql phpmyadmin
+////////////////////////////////////////////
+docker-compose.yml:
+version: "3.7"
+
+services:
+
+    web:
+        image: nginx:1.17
+        ports:
+        - 80:80
+        volumes:
+        - E:/LAM_VIEC/test-docker-nginx/php:/var/www/myapp
+        - E:/LAM_VIEC/test-docker-nginx/docker/site.conf:/etc/nginx/conf.d/site.conf
+        depends_on:
+        - php
+
+    php:
+        # image: php:7.2-fpm
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+        - E:/LAM_VIEC/test-docker-nginx/php:/var/www/myapp
+        #   - /var/www/docker-study.loc/recipe-02/docker/php.ini:/usr/local/etc/php/php.ini
+    # php:
+    #     image: php:7.2-fpm
+    #     volumes:
+    #       - E:/LAM_VIEC/test-docker-nginx/php:/var/www/myapp
+    #     #   - /var/www/docker-study.loc/recipe-02/docker/php.ini:/usr/local/etc/php/php.ini
+
+    db:
+        image: mysql
+        command: --default-authentication-plugin=mysql_native_password
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: example
+    
+    # adminer:
+    #     image: adminer
+    #     restart: always
+    #     ports:
+    #         - 8080:8080
+
+    phpmyadmin:
+        image: phpmyadmin
+        restart: always
+        ports:
+          - 8080:80
+        environment:
+          - PMA_ARBITRARY=1
+	  
+Dockerfile:
+
+FROM php:7.2-fpm
+# COPY E:/LAM_VIEC/test-docker-nginx/php /var/www/html/
+# RUN docker-php-ext-install mysqli pdo pdo_mysql
+RUN docker-php-ext-install mysqli
+
+TEST-DOCKER-NGINX
