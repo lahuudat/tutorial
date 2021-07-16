@@ -2201,3 +2201,8 @@ FROM php:7.2-fpm
 RUN docker-php-ext-install mysqli
 
 TEST-DOCKER-NGINX
+
+/////////////////////////////////
+//child first second jquery
+////////////////////////////////////
+https://api.jquery.com/nth-child-selector/
